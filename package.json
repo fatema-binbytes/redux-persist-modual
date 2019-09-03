@@ -1,0 +1,33 @@
+{
+  "name": "Redux",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.1",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-navigation": "^4.0.0",
+    "react-navigation-stack": "^1.5.1",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.6.12",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3",
+    "redux-devtools": "^3.5.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
